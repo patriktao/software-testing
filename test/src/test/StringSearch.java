@@ -9,6 +9,7 @@ public class StringSearch {
 
 	public static void main(String[] args) {
 		try {
+			//Hej
 			String command = args[0];
 			String pattern = args[1];
 			String fileName = args[2];
