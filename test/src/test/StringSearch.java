@@ -10,6 +10,9 @@ public class StringSearch {
 	public static void main(String[] args) {
 		try {
 			//Hej
+			if(args[0] == null || args[1] == null ||  args[2] == null){
+				throw new Error();
+			}
 			String command = args[0];
 			String pattern = args[1];
 			String fileName = args[2];
